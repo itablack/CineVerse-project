@@ -90,9 +90,11 @@ header{
     align-items: center ;
     padding: 10px 80px;
 }
-img{
-    display: block;
+ header img{
+    display: flex;
+   
 }
+
 .container { 
    margin: 30px 80px;
       background-color:rgba(11, 12, 15, 255); 
@@ -206,6 +208,7 @@ footer {
     color: white;
   }
   
+  
   footer .footer-container1 {
     display: flex;
     gap: 1rem;
@@ -223,17 +226,22 @@ footer {
     font-weight: 700;
   }
   .foot {
-    width: 80%;
+    width: 100%;
+    padding: 0 80px;
+  }
+  footer img {
+    width: 50px;
+    height: 50px;
   }
   footer .footer-container1 .last{
-    flex: 1.5;
+    flex: 30px;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 15px;
   }
   footer .footer-container1 .last .socials {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
   }
   .footer-container2 {
@@ -280,7 +288,7 @@ footer {
         padding: 10px 30px;
         background-color: rgba(5,5,6,255);
        }
-       img{
+       header img{
         height: 20px;
        }
         .container{
@@ -377,6 +385,9 @@ footer {
                 pointer-events: none;
                 
             }
+            .foot{
+              padding: 20px;
+            }
             
             footer {
                 padding: 20px;
@@ -385,8 +396,8 @@ footer {
                 gap: 1.5rem;
               }
               footer img {
-                width: 44px;
-                height: 44px;
+                width: 30px;
+                height: 30px;
               }
               footer .footer-container1 {
                 width: 100%;
@@ -403,13 +414,18 @@ footer {
                 padding: 5px;
               }
               /*last*/
-              
-              footer .footer-container1 .last{
-                flex: 1.5;
+              footer .footer-container1 .last .socials {
+                display: flex;
+                justify-content: space-between;
+                flex: 0;
+              }
+              footer .footer-container1  .last{
+                flex: 10px;
                 display: flex;
                 flex-direction: column;
-                gap: 1rem;
+                gap: 10px;
               }
+              
               .footer-container2 {
                 display: flex;
                 width: 100%;
