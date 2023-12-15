@@ -1,0 +1,14 @@
+<svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Country Flags/Asia/Japan">
+<g id="NG">
+<path id="Mask" d="M0.724609 2.99609H15.7246V11.9961H0.724609V2.99609Z" fill="white" stroke="#F5F5F5"/>
+<mask id="mask0_940_600" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="2" width="17" height="11">
+<path id="Mask_2" d="M0.724609 2.99609H15.7246V11.9961H0.724609V2.99609Z" fill="white" stroke="white"/>
+</mask>
+<g mask="url(#mask0_940_600)">
+<path id="Mask_3" d="M10.8914 2.49609H16.2247V12.4961H10.8914V2.49609Z" fill="#189B62"/>
+<path id="Rectangle 2" fill-rule="evenodd" clip-rule="evenodd" d="M0.224609 12.4961H5.55794V2.49609H0.224609V12.4961Z" fill="#189B62"/>
+</g>
+</g>
+</g>
+</svg>

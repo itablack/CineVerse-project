@@ -82,10 +82,6 @@
 }
 
 body {
-	/* background-image: url("/file/assets/background/layout.png");
-  background-position: center;
-  background-attachment: fixed;
-  */
 
 	background: url(/file/assets/background/layout.png),
 	#4a4a4a 0px -0.25px / 100% 100.059% no-repeat;
@@ -165,8 +161,6 @@ header {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	/* width: 350px;
-	margin: 20px; */
 }
 
 .page .input-comp {
@@ -187,7 +181,6 @@ header {
 
 .page input {
 	width: 653px;
-	/* height: 35px; */
 	color: #fff;
 	background-color: rgba(11, 12, 15, 0.9);
 	padding: 14px 232px 14px 24px;
@@ -197,7 +190,6 @@ header {
 
 .page button {
 	display: flex;
-	/* width: 350px; */
 	height: 45px;
 	justify-content: center;
 	align-items: center;
@@ -262,7 +254,6 @@ header {
 
 .forgot {
 	text-align: right;
-	/* margin-left: 250px; */
 	font-size: 14px;
 	color: var(--A-NORMAL-HOVER);
 	text-decoration: underline;
@@ -372,132 +363,44 @@ a:active {
 		height: 36px;
 		width: 100vw;
 		padding: 0 20px;
+		background-color: var(--BLACK-900);
 	}
 	header img {
 		width: 82px;
 		height: 15px;
 	}
 
-	.sign {
-		display: flex;
-		gap: 15px;
-	}
-	.sign button {
-		width: 75px;
-		height: 19px;
-		font-size: 10px;
-		font-weight: 400;
-		box-shadow: none;
-		border-radius: none;
-	}
-	.sign .signup {
-		box-shadow: 0px 0px 10px var(--A-NORMAL);
-	}
-	.intro {
-		height: 386px;
-		width: 100%;
-		padding-left: 80px;
-	}
-	.intro .intro-container {
-		width: 65%;
-		top: 20%;
-		left: 10%;
-		gap: 0.5rem;
-	}
-	.intro .intro-container .intro-text1 h1 {
-		font-size: 20px;
-		font-weight: 700;
-	}
-	.intro .intro-container .intro-text2 p {
-		font-size: 16px;
-	}
-	.intro .intro-container button {
-		width: 96px;
-		height: 21px;
-		font-size: 12px;
-	}
-	.hero {
-		height: 480px;
-		padding: 24px 24px;
+	body{
 		background-color: var(--BLACK-500);
-	}
-	.intro2 {
-		width: 90%;
-		gap: 1rem;
-	}
-	.intro2 .intro2-container1 {
-		gap: 1rem;
-	}
-	.intro2 .intro2-container1 p {
-		font-size: 16px;
-		line-height: 24px;
-		text-align: center;
-	}
-	.intro2 .intro2-container1 .payments {
-		gap: 1rem;
-	}
-	.intro2 .intro2-container1 .payments img {
-		height: 40px;
-		width: 40px;
-	}
-	.intro2 .intro2-container2 .first h1 {
-		font-size: 20px;
-		line-height: 24px;
-	}
-	.intro2 .intro2-container2 .light {
-		size: 14px;
-		line-height: 16.5px;
-	}
-	.intro2 .intro2-container2 .p-btn button {
-		width: 79px;
-		height: 18px;
-		font-size: 12px;
-		line-height: 14px;
-		font-weight: 600;
+		background-image: none;
 	}
 
-	.scroll {
-		height: 150px;
-		width: 100%;
-		justify-content: flex-start;
-		gap: 0.5rem;
-	}
-	.scroll .a {
-		height: 150px;
-		width: 220px;
-	}
-	.faq {
-		height: 380px;
-		padding: 20px 24px;
-		gap: 1rem;
-	}
-	.faq .question h1 {
-		font-size: 16px;
-		line-height: 20px;
-	}
-	.faq .q {
-		height: 44px;
-		border: 1px solid white;
-		border-radius: 4px;
-		padding: 12px;
-		font-size: 14px;
-		line-height: 21px;
-		font-weight: 400;
+	.box{
+		width: 350px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 19px;
 	}
 
-	.explore {
-		height: 370px;
-		padding: 15px;
+	.signin{
+		font-size: 24px;
 	}
-	.explore .container {
-		width: 100%;
-		gap: 1rem;
+
+	.page{
+		display: flex;
+		flex-direction: column;
+		gap: 19px;
 	}
-	.explore .container .text1 h1 {
-		font-size: 20px;
-		line-height: 25px;
-		font-weight: 700;
+	
+	.page input{
+		width: 320px;
 	}
+
+	.remember{
+		font-size: 9px;
+	}
+
 	footer {
 		padding: 20px;
 		height: 535px;
