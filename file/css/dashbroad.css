@@ -269,7 +269,7 @@ header .icons {
 	flex-direction: column;
 	justify-content: flex-end;
 	text-align: center;
-	background-image: url(/file/assets/background/container.png);
+	background-image: url(../assets/background/container.png);
 	background-size: cover;
 	background-origin: border-box;
 	background-position: center;
