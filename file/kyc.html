@@ -8,18 +8,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="kyc.css">
 </head>
 <body>
-    <nav>
-       <img src="./file/images/CineVerse Logo 1.svg" alt="">
-    </div>
-    </nav>
+    <header>
+        <div class="logo">
+            <img src="images/CineVerse Logo 1.png" alt="">
+        </div>
+    </header>
     <div class="container">
     <div id="general-box">
  <div class="header"> Customise your preferences</div>
  <div id="Customise-box">
-       <span>Favorite movie genre(s)</span>
+    <span class="chioce">Favorite movie genre(s)</span>
        
        <div class="selector">
         <select name="options" id="options">
@@ -40,7 +41,7 @@
         </select>
        
     </div>
-        <span>Preferred language for movies</span>
+    <span class="chioce">Preferred language for movies</span>
         <div class="selector">
             <select name="options" id="options">
             <option class="all-option">Language</option >
@@ -54,7 +55,7 @@
             </select>
         </div> 
      
-        <span>
+        <span class="chioce">
             Favorite Actors/Director
         </span>
 
@@ -74,7 +75,7 @@
            
      </div>
      
-    <span>Preferred movie ratings</span>
+    <span class="chioce">Preferred movie ratings</span>
     <div class="selector">
         <select name="options" id="options">
             <option class="all-option">Rating</option>
@@ -85,7 +86,7 @@
             <option value="5">18+</option>
                </select>       
      </div>
-        <span>Classic or latest releases</span>
+     <span class="chioce">Classic or latest releases</span>
         <div class="selector">
             <select name="options" id="options">
                 <option class="all-option">Movies</option>
@@ -95,7 +96,7 @@
         </div>     
         <div class="second-box">
             
-                <span>TV Show preference</span>
+            <span class="chioce">TV Show preference</span>
                 <div class="selector">
                     <select name="options" id="options">
                         <option class="all-option">TV Preference</option>
@@ -115,16 +116,15 @@
                      
                 </div>
             
-                <span>Personalised or popular picks</span>
+                <span class="chioce">Personalised or popular picks</span>
                 <div class="selector">
                     <select name="options" id="options">
                         <option class="all-option">Select an option</option>
                         <option value="personalised">Personalised</option>
                         <option value="popular">Popular picks</option>
                     </select>
-                  
-             </div>
-                <span>Interative context</span>
+                </div>   
+             <span class="chioce">Interative context</span>
                 <div class="selector">
                     <select name="options" id="options">
                         <option class="all-option">Select an option</option>  
@@ -132,68 +132,65 @@
                     <option value="no">No</option>
                     </select> 
                </div>
-           <span><button>NEXT</button></span>
+     <div class="Button"><button class="Button">NEXT</button></div>
     </div>
     </div>
-    </div> 
-    </div> 
-<footer>
-    <div class="third-box">
-    <div>
-        <span class="bottom">Home</span>
-        <ul>
-            <li><a href="#">Categorie</a></li>
-            <li><a href="#">Devices</a></li>
-            <li><a href="#">FAQ</a></li>
-
-        </ul>
-    </div>
-    <div>
-         <span class="bottom">Movies</span>
-        <ul>
-            <li><a href="#">Trending</a></li>
-            <li><a href="#">New release</a></li>
-            <li><a href="#">Popular</a></li>
-
-        </ul>
-    </div>
-    <div>
-         <span class="bottom">Show</span>
-        <ul>
-            <li><a href="#">Trending</a></li>
-            <li><a href="#">New release</a></li>
-            <li><a href="#">Popular</a></li>
-
-        </ul>
-    </div>
-    <div>
-         <span class="bottom">About US</span>
-        <ul>
-            <li><a href="#">Contact us</a></li>
-            </ul>
-    </div>
-    <div>
-         <span class="bottom">Help</span>
-        <ul>
-            <li><a href="#">Plans</a></li>
-            </ul>
-    </div>
-    <div>
-         <span class="bottom">Connect With Us</span>
-         <i class="fa-brands fa-facebook"></i>
-         <i class="fa-brands fa-x-twitter"></i>
-         <i class="fa-brands fa-linkedin-in"></i>
-         <i class="fa-brands fa-facebook-f"></i>
     </div>
     </div>
-     <div class="fourth-box">
-    <a class="@2023" href="#">@2023CineVerse.All Rights Reserved</a>
-    <ul class="policies">
-        <li><a href="#">Terms of use</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Cookie Policy</a></li>
-    </ul>
-</div>
-</footer>
+    <footer>
+        <div class="footer-container1 foot">
+            <div class="heading-container">
+                <div class="heading ft"><h2>Home</h2></div>
+                <div class="ft"><a href="#">Categories</a></div>
+                <div class="ft"><a href="#">Devices</a></div>
+                <div class="ft"><a href="#">FAQ</a></div>
+            </div>
+            <div class="heading-container">
+                <div class="heading ft"><h2>Movies</h2></div>
+                <div class="ft"><a href="#">Trending</a></div>
+                <div class="ft"><a href="#">New Release</a></div>
+                <div class="ft"><a href="#">Popular</a></div>
+            </div>
+            <div class="heading-container">
+                <div class="heading ft"><h2>Shows</h2></div>
+                <div class="ft"><a href="#">Trending</a></div>
+                <div class="ft"><a href="#">New Release</a></div>
+                <div class="ft"><a href="#">Popular</a></div>
+            </div>
+            <div class="heading-container">
+                <div class="heading ft"><h2>About Us</h2></div>
+                <div class="ft"><a href="#">Contact Us</a></div>
+                
+            </div>
+            <div class="heading-container">
+                <div class="heading ft"><h2>Help</h2></div>
+                <div class="ft"><a href="#">Plans</a></div>
+            </div>
+            <div class="heading-container last">
+                <div class="heading ft"><h2>Connect With Us</h2></div>
+                <div class="socials">
+                    <div class="">
+                        <img src="images/Button.png" alt="">
+                    </div>
+                    <div class="">
+                        <img src="images/Button (1).png" alt="">
+                    </div>
+                    <div class="">
+                        <img src="images/Button (2).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-container2 foot">
+            <div class="bottom">
+                <p>@2023 CineVerse, All Rights Reserved</p>
+            </div>
+            <div class="bottomleft">
+                <div class="items"><a href="#">Terms of Use</a></div>
+                <div class="items two"><a href="#">Privacy Policy</a></div>
+                <div class="items"><a href="#">Cookie Policy</a></div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
