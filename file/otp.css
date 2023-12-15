@@ -304,4 +304,14 @@ footer {
     color: var(--A-NORMAL);
     text-decoration: none;
   }
+  .form-container > img {
+    position: absolute;
+    margin: 4px;
+    gap: 6px;
+    padding: 2px;
+    /* background: red; */
+  }
+  .input-field > img {
+    background-color: red;
+  }
  
